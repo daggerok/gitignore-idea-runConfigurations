@@ -1,0 +1,15 @@
+# exclude all IDEA files except .idea/runConfigurations/*
+.idea
+!.idea/
+.idea/*
+!.idea/runConfigurations/
+# exclide other IDEA project / worspace files:
+*.iws
+*.iml
+*.ipr
+# exclude idea build / compiles firesults output directory
+/out/
+# exclude gradle output directory
+/build/
+# exclude maven output directory
+/target/
