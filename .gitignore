@@ -7,9 +7,3 @@
 *.iws
 *.iml
 *.ipr
-# exclude idea build / compiles firesults output directory
-/out/
-# exclude gradle output directory
-/build/
-# exclude maven output directory
-/target/
