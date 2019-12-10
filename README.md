@@ -1,4 +1,5 @@
 # exclude idea files except runConfigurations
+IntelliJ IDEA .gitignore file configuration include (exclude fron git ignore) all runConfigurations
 
 ## exclude `.idea`, but continue track `.idea/runConfigurations/*.xml`
 
