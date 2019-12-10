@@ -1,6 +1,6 @@
 # exclude idea files except runConfigurations
 
-## exclude `.idea` directory, but continue track `.idea/runConfigurations/*.xml` files
+## exclude `.idea`, but continue track `.idea/runConfigurations/*.xml`
 
 ```.gitignore
 .idea
