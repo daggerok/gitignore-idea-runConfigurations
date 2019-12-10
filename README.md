@@ -1,5 +1,7 @@
 # exclude idea files except runConfigurations
 
+## exclude `.idea` directory, but continue track `.idea/runConfigurations/*.xml` files
+
 ```.gitignore
 .idea
 !.idea/
@@ -7,7 +9,7 @@
 !.idea/runConfigurations/
 ```
 
-pattern is very simple: start from project root and move deeply to folder you want keep track
+explain pattern is very simple: start from project root and move deeply to folder you want keep track
 
 ```.gitignore
 # let's assume we have ignored folder a
@@ -19,4 +21,18 @@ a/*
 a/b/*
 !a/b/c/
 !a/b/d/
+```
+
+## exclude legacy project / workspace idea files
+
+```.gitignore
+*.iml
+*.ipr
+*.iws
+```
+
+## exclude idea compile output directory
+
+```.gitignore
+/out/
 ```
