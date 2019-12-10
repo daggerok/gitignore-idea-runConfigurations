@@ -1,9 +1,11 @@
-# exclude all IDEA files except .idea/runConfigurations/*
+# exclude all .idea directory except .idea/runConfigurations/
 .idea
 !.idea/
 .idea/*
 !.idea/runConfigurations/
-# exclide other IDEA project / worspace files:
+# exclide legacy IDEA project / worspace files:
 *.iws
 *.iml
 *.ipr
+# exclude IDEA build compiler output folder:
+/out/
